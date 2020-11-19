@@ -1,0 +1,79 @@
+.otp{
+    font-family: Quicksand;
+    background: rgba(68, 138, 153, 0.25);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height:430px;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:70px;
+    padding:30px;
+}
+.otp_container{
+    margin:35px;
+}
+.enter{
+    color:#448A99;
+    width: 400px;
+    height: 30px;
+    margin-bottom:20px;
+    font-size: 36px;
+}
+.enterotp>input{
+    width: 410px;
+    color: rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 15px;
+    border:none;
+    margin-top:10px;
+    padding:10px;
+    
+    margin-bottom:20px;
+}
+::placeholder{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 15px;
+    padding:10px;
+}
+.resendotp{
+    font-family: Quicksand;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #448A99;
+    margin-bottom: 20px;
+}
+.writeup_otp{
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration-line: none;
+    color: #000000 50%;
+    position: inherit;
+
+}
+.otpsubmit{
+    background: #448A99;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 430px;
+    margin-top:20px;
+    padding:6px;
+    border:none;
+}
+.otpsubmit:hover{
+    cursor: pointer;
+}
+.backlink{
+    font-family: Quicksand;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #448A99;
+    margin-top:10px;
+    float:right;
+}
