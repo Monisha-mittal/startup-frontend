@@ -1,0 +1,116 @@
+.msignup{
+    font-family: Quicksand;
+    background: rgba(68, 138, 153, 0.25);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height:430px;
+    width:500px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:70px;
+    padding:30px;
+}
+.email{
+    color:#448A99;
+    width: 400px;
+    height: 20px;
+    padding:35px;
+    font-size: 32px;
+    margin:-10px 0px;
+}
+.emailid{
+    color:#448A99;
+    font-weight: bold;
+    font-size: 22px;
+    width: 400px;
+    padding:35px;
+}
+.enteremail>input{
+    width: 410px;
+    margin-top:5px;
+    padding:10px;
+    color: rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 15px;
+    border:none;
+    margin-left:35px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 15px;
+    padding:10px;
+}
+.pswd{
+    color:#448A99;
+    font-weight: bold;
+    font-size: 22px;
+    width: 400px;
+    padding:35px;
+}
+.enterpswd>input{
+    width: 410px;
+    margin-top:5px;
+    padding:10px;
+    color: rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 15px;
+    border:none;
+    margin-left:35px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 15px;
+    padding:10px;
+}
+.designate{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 22px;
+    color: #448A99;
+    margin-left :35px;
+}
+.choice{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 22px;
+    color: #448A99;
+    margin-left :35px;
+    margin-bottom:10px;
+}
+:checked{
+    color: #448A99;
+}
+.memberlog{
+    font-family: Quicksand;
+    font-weight: 600;
+    padding:25px 35px;
+    text-decoration-line: underline;
+    color: #448A99;
+}    
+.user{
+    font-family: Quicksand;
+    font-weight: 600;
+    padding:35px;
+    margin-left:0px;
+    text-decoration-line: underline;
+    color: #448A99; 
+}    
+.Mverify{
+    background: #1BA94C;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 430px;
+    margin:10px 35px;
+    padding:6px;
+    border:none;
+    margin-top:15px;
+}

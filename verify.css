@@ -1,0 +1,44 @@
+.verification{
+    font-family: Quicksand;
+    background: rgba(68, 138, 153, 0.25);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height:430px;
+    width:500px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:70px;
+    padding:30px;
+}
+.container{
+    margin:35px;
+}
+.writeup_verify{
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, 0.5);
+    position: inherit;
+    
+}
+.lastline{
+    padding:35px;
+}
+.resend{
+    font-family: Quicksand;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #448A99;
+    margin-left: -35px; 
+    
+}    
+.users{
+    font-family: Quicksand;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #448A99;
+    float:right;
+}  

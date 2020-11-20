@@ -1,0 +1,108 @@
+.Login{
+    font-family: Quicksand;
+    background: rgba(68, 138, 153, 0.25);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    height:430px;
+    width:500px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:70px;
+    padding:30px;
+}
+.heading{
+    color:#448A99;
+    width: 400px;
+    height: 30px;
+    padding:30px;
+    font-size: 36px;
+}
+.phone{
+    color:#448A99;
+    font-weight: bold;
+    font-size: 24px;
+    width: 400px;
+    padding:35px;
+}
+.enterphone>input{
+    width: 410px;
+    margin-top:12px;
+    padding:10px;
+    color: rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 15px;
+    border:none;
+    margin-left:35px;
+}
+::placeholder{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 15px;
+    padding:10px;
+}
+
+.otp_button{
+    background: #448A99;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 430px;
+    margin-top:20px;
+    padding:6px;
+    border:none;
+}
+.otp_button:hover{
+    cursor: pointer;
+}
+.member{
+    font-family: Quicksand;
+    font-weight: 600;
+    padding:25px 35px;
+    text-decoration-line: underline;
+    color: #448A99;
+}
+.continue{
+    display:flex;
+    flex-direction: row;
+    margin-left:35px; 
+    margin-right: 35px; 
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 18px;
+    color: #448A99;
+}
+.continue:before, .continue:after {
+    content:" ";
+    flex:1 1;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    margin:auto;
+}
+#googlebtn{     
+    background-color:white;
+    border: 3px solid #448A99;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    color: #448A99;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    padding:5px;
+    margin-left:35px;
+    margin-right: 35px;
+    margin-top: 25px;
+     
+}
+.googleicon img{
+    width:5%;
+    margin:auto;    
+}
+.buttontext{
+    margin:10px;
+}
+#googlebtn:hover{
+    cursor:pointer;
+}
